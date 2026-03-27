@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "The web api to software sussurros do futuro",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +15,8 @@
     "web api"
   ],
   "author": "Lúcio Brito <luciopereirabritoo@gmail.com> (https://portfolio.luciopbrito.com.br)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
