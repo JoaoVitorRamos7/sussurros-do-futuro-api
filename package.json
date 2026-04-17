@@ -17,6 +17,7 @@
   "author": "Lúcio Brito <luciopereirabritoo@gmail.com> (https://portfolio.luciopbrito.com.br)",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
   }
 }
