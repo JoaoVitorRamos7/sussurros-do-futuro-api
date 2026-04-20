@@ -2,8 +2,13 @@ import express from 'express';
 import statusRoutes from './features/status/status.routes.js';
 import optionRoutes from './features/option/option.routes.js';
 import questionRoutes from './features/question/question.routes.js';
+import cors from 'cors'
 
 const app = express();
+
+app.use(cors({
+  origin: 'http://localhost:5500'
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
